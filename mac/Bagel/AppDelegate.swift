@@ -7,7 +7,7 @@
 //
 
 import Cocoa
-import macOSThemeKit
+import ThemeKit
 
 @NSApplicationMain
 class AppDelegate: NSObject, NSApplicationDelegate {

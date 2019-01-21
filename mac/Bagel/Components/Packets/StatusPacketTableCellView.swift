@@ -7,7 +7,7 @@
 //
 
 import Cocoa
-import macOSThemeKit
+import ThemeKit
 
 class StatusPacketTableCellView: NSTableCellView {
 

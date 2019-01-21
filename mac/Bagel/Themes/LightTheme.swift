@@ -7,7 +7,7 @@
 //
 
 import Cocoa
-import macOSThemeKit
+import ThemeKit
 
 extension LightTheme {
     var contentTextColor: NSColor {

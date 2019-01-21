@@ -1,0 +1,14 @@
+name: Bagel
+options:
+  bundleIdPrefix: com.yagiz
+targets:
+  Bagel:
+    type: application
+    platform: macOS
+    sources: [Bagel]
+    settings:
+      CODE_SIGN_ENTITLEMENTS: Bagel/Bagel.entitlements
+    dependencies:
+      - carthage: CocoaAsyncSocket
+      - carthage: ThemeKit
+
